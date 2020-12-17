@@ -21,6 +21,7 @@ public class ItemsController {
 
     @RequestMapping(value = "/items", method = RequestMethod.GET)
     public List<String> items() {
+        // This is a git commit test
         return itemsService.getItems();
     }
 
