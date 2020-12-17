@@ -1,0 +1,13 @@
+package com.ronnakash.reviewhub;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class ReviewhubApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(ReviewhubApplication.class, args);
+	}
+
+}
